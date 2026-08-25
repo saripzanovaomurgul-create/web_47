@@ -1,28 +1,4 @@
-/* body {
-    background-color: rgb(204, 74, 74);
-    text-align: center;
-}
-
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-}
-p {
-    color: white;
-    font-size: 20px;
-}
-
-
-button{
-    color: white;
-    font-size: 100px;
-    padding: 50px;
-    border: radius 30px;
-    background-color:rgh(204,216,36);
-} */
-
-/* Оң жактагы чоң сүрөттү жайгаштыруу */
-/* Жаратылыш сүрөтүн оң тарапка жайгаштыруу */
+/* 1-СҮРӨТ: Жаратылыш */
 .nature-img {
     float: right;
     width: 450px;
@@ -51,9 +27,9 @@ button{
     width: 250px;
     border: 2px solid black;
     border-radius: 8px;
-    overflow: hidden; /* сүрөттүн бурчтарын тегеректөө үчүн */
+    overflow: hidden;
     font-family: sans-serif;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* көлөкө */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Карточканын ичиндеги телефон сүрөтү */
@@ -86,9 +62,9 @@ button{
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
-    text-transform: uppercase; /* баш тамга менен */
+    text-transform: uppercase;
 }
 
 .card .btn:hover {
-    background-color: darkblue; /* чычканды алып барганда түсү өзгөрөт */
+    background-color: darkblue;
 }
